@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currículum - Karmen María Chalita Velázquez</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            color: #333;
+            background-color: #f4f4f4;
+        }
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            background: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1, h2 {
+            color: #0056b3;
+        }
+        .section {
+            margin-bottom: 20px;
+        }
+        .section h2 {
+            border-bottom: 2px solid #0056b3;
+            padding-bottom: 5px;
+        }
+        .contact-info, .skills, .languages {
+            display: flex;
+            justify-content: space-between;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        li {
+            margin: 5px 0;
+        }
+        .profile-picture {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .profile-picture img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="profile-picture">
+            <img src="FotoCV.jpeg" alt="Foto de Karmen María Chalita Velázquez">
+        </div>
+        <header>
+            <h1>Karmen María Chalita Velázquez</h1>
+            <p>San Nicolás #531, Colonia Ojo de Agua | k.chalita01@gmail.com | 322-156-6684</p>
+        </header>
+
+        <section class="section">
+            <h2>Objetivo Profesional</h2>
+            <p>Iniciar mi carrera en el desarrollo de software dentro de una empresa innovadora, donde pueda aplicar y fortalecer los conocimientos adquiridos durante mi formación académica, mientras contribuyo al crecimiento del equipo y la organización.</p>
+        </section>
+
+        <section class="section">
+            <h2>Formación Académica</h2>
+            <p><strong>Centro Universitario de la Costa (CUCosta)</strong></p>
+            <p>Ingeniería en Computación | 2021 - 2024</p>
+        </section>
+
+        <section class="section">
+            <h2>Proyectos y Logros</h2>
+            <ul>
+                <li>Vicepresidenta del Consejo Estudiantil del área de Ingenierías.</li>
+                <li>Proyecto FRIEMK'S: Reconocimiento de emociones con Inteligencia Artificial (Universidad Konrad Lorenz, Bogotá).</li>
+                <li>Sistema de gestión de incidencias para la Secundaria Técnica No. 105.</li>
+            </ul>
+        </section>
+
+        <section class="section">
+            <h2>Experiencia Profesional</h2>
+            <p><strong>Cardalle Real Estate</strong> | Web Manager and Designer</p>
+            <ul>
+                <li>Diseño y gestión de páginas web.</li>
+                <li>Implementación de estrategias de marketing digital.</li>
+                <li>Mantenimiento y soporte técnico en plataformas digitales.</li>
+            </ul>
+        </section>
+
+        <section class="section">
+            <h2>Habilidades Técnicas</h2>
+            <div class="skills">
+                <ul>
+                    <li>Lenguajes de programación: C#, PHP, HTML, CSS</li>
+                    <li>Bases de datos: MySQL Server, Workbench</li>
+                    <li>Herramientas: WordPress, Visual Studio, Sublime Text</li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="section">
+            <h2>Certificaciones y Cursos</h2>
+            <ul>
+                <li>Cisco Academy: Ciberseguridad, Introducción al Hardware, Redes</li>
+                <li>Estadística y Procesos Estocásticos (Secretaría de Educación Pública)</li>
+                <li>Especialidades Técnicas: Nutrición y Administración de Empresas</li>
+            </ul>
+        </section>
+
+        <section class="section">
+            <h2>Habilidades Blandas</h2>
+            <ul>
+                <li>Comunicación efectiva y empatía</li>
+                <li>Liderazgo y trabajo en equipo</li>
+                <li>Adaptación y trabajo bajo presión</li>
+                <li>Resolución de problemas</li>
+            </ul>
+        </section>
+
+        <section class="section">
+            <h2>Idiomas</h2>
+            <div class="languages">
+                <p>Inglés: Nivel B1</p>
+            </div>
+        </section>
+    </div>
+</body>
+</html>
